@@ -1,0 +1,61 @@
+﻿
+@{
+    if (TempData["failedvoted"] != null) {
+    <script>
+                alert('@TempData["failedvoted"]');
+    </script>
+    }
+}
+
+<div class="divider-nobg">
+    <div class="competitors-title">
+        <h1>I... Choose... YOU!</h1>
+    </div>
+    <div class="competitors">
+        <form method="post">
+            <div class="competitors-member">
+                <img src="./images/1.jpg" alt="">
+                <p>Jodie Bates</p>
+                <input type="hidden" name="contender" value="1" />
+                <button type="submit" class="btn btn-success" style="font-size: 14px;">Vote for Jodie <i class="fa-solid fa-thumbs-up"></i></button>
+            </div>
+        </form>
+
+        <form method="post">
+            <div class="competitors-member">
+                <img src="./images/2.jpg" alt="">
+                <p>Callie Harrison</p>
+                <input type="hidden" name="contender" value="2" />
+                <button type="submit" class="btn btn-success" style="font-size: 14px;">Vote for Callie <i class="fa-solid fa-thumbs-up"></i></button>
+            </div>
+        </form>
+
+        <form method="post">
+            <div class="competitors-member">
+                <img src="./images/3.jpg" alt="">
+                <p>Masako Yoshida</p>
+                <input type="hidden" name="contender" value="3" />
+                <button type="submit" class="btn btn-success" style="font-size: 14px;">Vote for Masako <i class="fa-solid fa-thumbs-up"></i></button>
+            </div>
+        </form>
+
+        <form method="post">
+            <div class="competitors-member">
+                <img src="./images/4.jpg" alt="">
+                <p>Hudson Atkinson</p>
+                <input type="hidden" name="contender" value="4" />
+                <button type="submit" class="btn btn-success" style="font-size: 14px;">Vote for Hudson <i class="fa-solid fa-thumbs-up"></i></button>
+            </div>
+        </form>
+
+        <form method="post">
+            <div class="competitors-member">
+                <img src="./images/5.jpg" alt="">
+                <p>Hanako Imai</p>
+                <input type="hidden" name="contender" value="5" />
+                <button type="submit" class="btn btn-success" style="font-size: 14px;">Vote for Hanako <i class="fa-solid fa-thumbs-up"></i></button>
+            </div>
+        </form>
+    </div>
+
+</div>

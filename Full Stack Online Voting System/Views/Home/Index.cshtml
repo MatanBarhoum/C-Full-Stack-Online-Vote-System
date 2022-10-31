@@ -1,0 +1,92 @@
+﻿@{
+    if (TempData["voted"] != null) {
+        <script>
+            alert('@TempData["voted"]');
+        </script>
+    }
+}
+<div class="election-container">
+    <div class="vote-img left">
+        <img src="./images/vote.jpg" alt="vote image">
+    </div>
+
+    <div class="election-desc">
+        <h1>Election Season has returned!</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla excepturi, provident aut, sequi corporis non quia similique velit harum, consectetur cumque illo distinctio pariatur neque? Eius esse aut temporibus tenetur?</p>
+    </div>
+
+    <button type="button" class="btn vote-btn">
+        Vote Now
+    </button>
+</div>
+
+<div class="divider">
+    <div class="competitors-title">
+        <h1>This Year Competitors</h1>
+    </div>
+    <div class="competitors">
+        <div class="competitors-member">
+            <img src="./images/1.jpg" alt="">
+            <p>Jodie Bates</p>
+        </div>
+        <div class="competitors-member">
+            <img src="./images/2.jpg" alt="">
+            <p>Callie Harrison</p>
+        </div>
+        <div class="competitors-member">
+            <img src="./images/3.jpg" alt="">
+            <p>Masako Yoshida</p>
+        </div>
+        <div class="competitors-member">
+            <img src="./images/4.jpg" alt="">
+            <p>Hudson Atkinson</p>
+        </div>
+        <div class="competitors-member">
+            <img src="./images/5.jpg" alt="">
+            <p>Hanako Imai</p>
+        </div>
+    </div>
+</div>
+
+<div class="election-container">
+    <div class="vote-img right">
+        <img src="./images/vote2.jpg" alt="vote image">
+    </div>
+
+    <div class="election-desc">
+        <h1>Your Voice Matter!</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla excepturi, provident aut, sequi corporis non quia similique velit harum, consectetur cumque illo distinctio pariatur neque? Eius esse aut temporibus tenetur?</p>
+    </div>
+
+    <button type="button" class="btn vote-btn">
+        Vote Now
+    </button>
+</div>
+
+<footer>
+    <div class="footer">
+        <div class="main-footer">
+            <div class="logo">Sponsored by:</div>
+            <div class="sponsors">
+                <div class="sponsors-brand">
+                    <img src="./images/google-logo.png" alt="">
+                </div>
+                <div class="sponsors-brand">
+                    <img src="./images/microsoft-logo.png" alt="">
+                </div>
+                <div class="sponsors-brand">
+                    <img src="./images/intel-logo.png" alt="">
+                </div>
+                <div class="sponsors-brand">
+                    <img src="./images/samsung-logo.png" alt="">
+                </div>
+                <div class="sponsors-brand">
+                    <img src="./images/att-logo.png" alt="">
+                </div>
+                <div class="sponsors-brand">
+                    <img src="./images/walt-disney-logo.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
